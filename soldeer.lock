@@ -1,0 +1,6 @@
+
+[[dependencies]]
+name = "erc721a"
+version = "4.3.0"
+source = "https://soldeer-revisions.s3.amazonaws.com/erc721a/4_3_0_14-03-2024_06:28:52_erc721a.zip"
+checksum = "95826815148f5281311395186258940cc01f18d5d95975050a2c5f0f835d476d"

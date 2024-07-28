@@ -1,4 +1,16 @@
-## Foundry
+
+## Redmilio Heroes
+
+**Redmilio Heroes are a collection of Honorary NFTs celebrating the heroes of Redmilio on Sei.**
+
+### Overview
+-   Deployed on Sei "pacific-1" mainnet 
+-   All assets and metadata hosted on [Arweave](https://arweave.org/), a storage-oriented decentralized network
+-   Based on [ERC721A](https://chiru-labs.github.io/ERC721A/#/), a gas-optimized ERC721 implementation by Chiru Labs
+
+
+
+### Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -9,55 +21,31 @@ Foundry consists of:
 -   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
 -   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-## Documentation
+#### Documentation
 
 https://book.getfoundry.sh/
 
-## Usage
+#### Usage
 
-### Build
+##### Build
 
 ```shell
 $ forge build
 ```
 
-### Test
+##### Deploy
 
 ```shell
-$ forge test
+$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key> --legacy
 ```
 
-### Format
+##### Cast
 
 ```shell
-$ forge fmt
+$ cast <subcommand> --legacy
 ```
 
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
+##### Help
 
 ```shell
 $ forge --help
